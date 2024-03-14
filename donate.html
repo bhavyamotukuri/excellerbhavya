@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PALS</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="adopt.html">Adopt</a></li>
+                
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="donate">
+            <h2 style="text-align: center;">Donate</h2><br><br>
+            <p style="text-align: center;">Your generous donations help us provide care and find forever homes for animals in need.</p><br><br><br><br>
+            <form style="text-align: center;"action="donation_process.php" method="POST">
+                <label for="amount">Donation Amount:</label>
+                <input type="number" id="amount" name="amount" placeholder="Enter amount"><br><br>
+                <p style="text-align: center;">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name"><br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Your email address"><br><br>
+                <label for="message">Message (optional):</label>
+                <textarea id="message" name="message" placeholder="Leave a message"></textarea><br><br>
+                <centre><button type="submit">Donate Now</button></centre><br><br>
+            </form>
+        </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 PALS. All rights reserved.</p>
+        <br><br><br>
+    </footer>
+</body>
+</html>
