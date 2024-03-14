@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b1a1e1;
+    color: #333;
+    
+}
+
+/* Header styles */
+header {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+    color: #300c65;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #cd97db; /* Lilac */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #bf6aa3; /* Pink */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d791af; /* Lighter pink */
+}
+
+/* Main content styles */
+.main-content {
+    padding: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pet-card {
+    background-color: #ceaee1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pet-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #532b5a; /* Lilac */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
